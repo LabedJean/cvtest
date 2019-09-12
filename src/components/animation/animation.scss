@@ -30,7 +30,7 @@
   svg {
     pointer-events: none;
     position: fixed;
-    top: 100%;
+    top: 90%;
     left: 25%;
     width: 20vw;
     max-width: 600px;
@@ -43,7 +43,7 @@
   }
   
   #bg {
-    fill: #2da1dc;
+    fill: #2dd0dc;
   }
   #sweater > path:nth-child(1) {
     fill: #60d882;
@@ -65,7 +65,7 @@
     fill: #f0f0f0;
   }
   #eye > g:first-of-type > path:nth-child(1) {
-    fill: #159e97;
+    fill: #2dd0dc;
   }
   #eye > g:first-of-type > path:nth-child(2) {
     fill: #0f9390;
@@ -74,7 +74,7 @@
     fill: #231f20;
   }
   #mouth > path:nth-child(1) {
-    fill: #f24976;
+    fill: #FFA1C3;
   }
   #mouth > path:nth-child(2) {
     fill: #b7092b;
@@ -86,13 +86,13 @@
     fill: #ffffff;
   }
   #hair > path:nth-of-type(1) {
-    fill: #62317c;
+    fill: #B86B28;
   }
   #hair > path:nth-of-type(2) {
-    fill: #62317c;
+    fill: #B86B28;
   }
   #hair > path:nth-of-type(3) {
-    fill: #62317c;
+    fill: #B86B28;
   };
 
   .header-container{
