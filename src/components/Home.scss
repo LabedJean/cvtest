@@ -1,31 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 
 
-// ***************** Header ***************
-
-// ***************** Body ***************
-
-
 .body_labed_container{
     width: 100vw;
     overflow: hidden;
-    
+    background: linear-gradient(180deg, rgba(41,45,59,1) 0%, rgba(24,159,215,1) 100%);
+
     
     
 
     
 
     .profil_labed{
-        width: 100vw; 
-        height: 80vh;
+        width: 90vw; 
+        height: 40vh;
         background-color:rgba(131, 241, 177, 0.4);
-        border:black solid 1px;
+        border: black solid 1.5px;
         border-radius: 5px;
         transform:translatex(-50%);
         display: grid;
         align-items: center;
         grid-template-columns: repeat(2,1fr);
         margin: 10vh 0vh; 
+        margin-left: 3vh;
         transition:transform 2s ease;
         -webkit-box-shadow: 10px 10px 5px 0px rgba(1,71,23,1);
 -moz-box-shadow: 10px 10px 5px 0px rgba(1,71,23,1);
@@ -38,7 +35,8 @@ box-shadow: 10px 10px 5px 0px rgba(1,71,23,1);
         }
 
         .text_skill_labed{
-            flex-direction: column
+            flex-direction: column;
+            
         }
 
     }
@@ -52,7 +50,7 @@ box-shadow: 10px 10px 5px 0px rgba(1,71,23,1);
         .text_labed {
             margin: 3vh;
             font-family: 'Exo 2', sans-serif !important;
-            font-size: 2.5vh;
+            font-size:1.5vh;
             text-align: center;
             line-height: 2.0;
             align-self: center !important
@@ -66,21 +64,25 @@ box-shadow: 10px 10px 5px 0px rgba(1,71,23,1);
         }
 
 .wildside_labed{
-    width: 100vw; 
-    height: 80vh;
-    background-color:  rgb(214, 233, 255);
-    border: black solid 1px;
+    width: 90vw; 
+    height: 40vh;
+    align-self: flex-end;
+    background-color:  rgba(214, 233, 255, 0.4);
+    border: black solid 1.5px;
+    border-bottom: black solid 3px;
     border-radius: 5px;
     transform:translatex(50%);
     display: grid;
     grid-template-columns: repeat(2,1fr);
     transition:transform 2s ease;
     margin: 5vh 0vh;
-    padding-top: 11vh;
-    padding-bottom: 11vh;
-    -webkit-box-shadow: -10px -10px 5px 0px rgba(0,31,94,1);
--moz-box-shadow: -10px -10px 5px 0px rgba(0,31,94,1);
-box-shadow: -10px -10px 5px 0px rgba(0,31,94,1);
+    margin-left: 15vh;
+
+
+
+    -webkit-box-shadow: -5px -5px 5px 0px rgba(0,31,94,0.5);
+    -moz-box-shadow: -5px -5px 5px 0px rgba(0,31,94,0.5);
+    box-shadow: -5px -5px 5px 0px rgba(0,31,94,0.5);
 
     .text_container_labed{
         display:flex;
@@ -96,17 +98,16 @@ box-shadow: -10px -10px 5px 0px rgba(0,31,94,1);
 }
 
 .title_labed {
-    font-size: 6em;
+    font-size: 3em;
     font-weight: bold;
     line-height: 1;
     position: relative;
     display: inline-block;
-    padding: .5em .75em;
+    padding: .5em ;
     display: flex;
     margin: 2vh;
     font-family: 'Poppins', sans-serif !important;
     
-    color: #fff;
     
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(0, 0, 0, 0.34);
@@ -136,7 +137,7 @@ box-shadow: -10px -10px 5px 0px rgba(0,31,94,1);
     right: .125em;
     bottom: .125em;
     left: .125em;
-    background-color:  rgb(245, 245, 245);
+    background-color:  rgba(245, 245, 245, 0.9);
 }
 
 .titleh2_labed{
@@ -146,8 +147,9 @@ box-shadow: -10px -10px 5px 0px rgba(0,31,94,1);
     font-weight: 900;
     align-self: center;
     font-family: 'Exo 2', sans-serif;
-    
-    
+    text-align: center;
+    align-self: center;
+    margin-left: 10vh;   
 }
 
 
@@ -160,12 +162,14 @@ box-shadow: -10px -10px 5px 0px rgba(0,31,94,1);
 }
 
 
+
 .title_back {
     background-image: url('https://www.artmajeur.com/medias/standard/v/e/veronique-gaudin/artwork/11192641_dscf2858.jpg');
 }
 
 .title_back_wild {
     background-image: url('https://www.bloemfonteincourant.co.za/wp-content/uploads/2018/07/digital-coding-785.jpg');
+   
 }
 
 }
@@ -177,6 +181,7 @@ box-shadow: -10px -10px 5px 0px rgba(0,31,94,1);
 .react-logo{
     width: 10vh;
     height: 10vh;
+    margin-left: 5vh
 }
 
 

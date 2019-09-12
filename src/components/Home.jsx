@@ -46,11 +46,7 @@ render() {
                     />
                     <p className='text_labed'> NodeJs</p>
                 </div>
-                <div className='skillContainer'>
-                    <img className='react-logo' alt='react' src="https://blog.octo.com/wp-content/uploads/2015/12/react-logo-1000-transparent.png"
-                    />
-                    <p className='text_labed'> Javascript</p>
-                </div>
+                
             </div>  
 
             <div className='text_skill_labed'>
@@ -69,12 +65,9 @@ render() {
                     />
                     <p className='text_labed'> React</p>
                 </div>
-                <div className='skillContainer'>
-                    <img className='react-logo' alt='react' src="https://blog.octo.com/wp-content/uploads/2015/12/react-logo-1000-transparent.png"
-                    />
-                    <p className='text_labed'> React</p>
-                </div>
+                
             </div>  
+
             <div className='text_skill_labed'>
                 <div className='skillContainer'>
                     <img className='react-logo' alt='react' src="https://blog.octo.com/wp-content/uploads/2015/12/react-logo-1000-transparent.png"
@@ -91,11 +84,7 @@ render() {
                     />
                     <p className='text_labed'> React</p>
                 </div>
-                <div className='skillContainer'>
-                    <img className='react-logo' alt='react' src="https://blog.octo.com/wp-content/uploads/2015/12/react-logo-1000-transparent.png"
-                    />
-                    <p className='text_labed'> React</p>
-                </div>
+                
             </div>  
             
           

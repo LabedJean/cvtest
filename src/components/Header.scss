@@ -2,11 +2,13 @@
 
 
 .header-container{
-    background-image: url("../assets/backgroundCV2.png");
-    height: 130vh;
+   
+    height: 120vh;
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 1px black solid;
+
    
     .name{
     font-family: 'Exo 2', sans-serif;

@@ -3,10 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import Sliders from './components/Home'
 import Header from './components/Header'
+import Animation from './components/animation/animation'
+import Background from './components/background/background'
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Background/>
+      <Animation/>
       <Header/>
       <Sliders/>
     </div>
