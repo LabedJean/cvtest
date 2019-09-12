@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+
+// ***************** Header ***************
+
+// ***************** Body ***************
+
+
+.body_labed_container{
+    width: 100vw;
+    overflow: hidden;
+    
+    
+    
+
+    
+
+    .profil_labed{
+        width: 100vw; 
+        height: 80vh;
+        background-color:rgba(131, 241, 177, 0.4);
+        border:black solid 1px;
+        border-radius: 5px;
+        transform:translatex(-50%);
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2,1fr);
+        margin: 10vh 0vh; 
+        transition:transform 2s ease;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(1,71,23,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(1,71,23,1);
+box-shadow: 10px 10px 5px 0px rgba(1,71,23,1);
+
+
+        .text-container-labed{
+            flex-direction: column;
+            display:flex !important;
+        }
+
+        .text_skill_labed{
+            flex-direction: column
+        }
+
+    }
+
+        .profil_labed:hover{
+            transform:translatex(0%);
+            transition:transform 1s ease;
+            
+        }
+        
+        .text_labed {
+            margin: 3vh;
+            font-family: 'Exo 2', sans-serif !important;
+            font-size: 2.5vh;
+            text-align: center;
+            line-height: 2.0;
+            align-self: center !important
+            
+        }
+        .skillContainer{
+            display: flex;
+            margin-top: 2vh;
+            margin-left: 2vh;
+            flex-direction: row
+        }
+
+.wildside_labed{
+    width: 100vw; 
+    height: 80vh;
+    background-color:  rgb(214, 233, 255);
+    border: black solid 1px;
+    border-radius: 5px;
+    transform:translatex(50%);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    transition:transform 2s ease;
+    margin: 5vh 0vh;
+    padding-top: 11vh;
+    padding-bottom: 11vh;
+    -webkit-box-shadow: -10px -10px 5px 0px rgba(0,31,94,1);
+-moz-box-shadow: -10px -10px 5px 0px rgba(0,31,94,1);
+box-shadow: -10px -10px 5px 0px rgba(0,31,94,1);
+
+    .text_container_labed{
+        display:flex;
+        flex-direction: row;
+        align-self: center;
+       
+    }
+}
+
+.wildside_labed:hover{
+    transform:translatex(0%);
+    transition:transform 1s ease;
+}
+
+.title_labed {
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    padding: .5em .75em;
+    display: flex;
+    margin: 2vh;
+    font-family: 'Poppins', sans-serif !important;
+    
+    color: #fff;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.34);
+}
+
+.title_labed:before,
+.title_labed:after {
+    position: absolute;
+    content: '';
+}
+
+/* Background */
+.title_labed:before {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+}
+
+/* Text Background (black zone) */
+.title_labed:after {
+    position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color:  rgb(245, 245, 245);
+}
+
+.titleh2_labed{
+    
+    font-size: 14vh;
+    font-size: 7vw;
+    font-weight: 900;
+    align-self: center;
+    font-family: 'Exo 2', sans-serif;
+    
+    
+}
+
+
+.clip-text--no-textzone:before {
+    background-position: -.65em 0;
+}
+
+.clip-text--no-textzone:after {
+    content: none;
+}
+
+
+.title_back {
+    background-image: url('https://www.artmajeur.com/medias/standard/v/e/veronique-gaudin/artwork/11192641_dscf2858.jpg');
+}
+
+.title_back_wild {
+    background-image: url('https://www.bloemfonteincourant.co.za/wp-content/uploads/2018/07/digital-coding-785.jpg');
+}
+
+}
+
+
+// ***************** Cv button ***************
+
+
+.react-logo{
+    width: 10vh;
+    height: 10vh;
+}
+
+
+.slider-container{
+    background-image: url("../assets/backgroundsliders.jpg");
+    height: 50vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}

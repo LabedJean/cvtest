@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+
+.header-container{
+    background-image: url("../assets/backgroundCV2.png");
+    height: 130vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    .name{
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    font-size:10vh;
+    margin: 0 !important;
+    margin-left: 5vh !important;
+        margin-top: 30vh !important;
+    
+    
+    }
+    .name2{
+        font-family: 'Exo 2', sans-serif;
+        color: white;
+        font-size:5vh;
+        margin: 0 !important;
+        margin-left: 5vh !important
+        }
+}
