@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+  
+  .accordeon-container{
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Exo 2', sans-serif;
+    background-color: rgba(24,159,215,1);
+    padding: 0 ;
+    
+
+  }
+  
+  .project-title{
+    margin-bottom: 45px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 44px;
+    color: white;
+    margin-bottom: 5vh;
+    padding: 0 ;
+text-decoration-line: overline
+  }
+  .project-title-main{
+    position: relative;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0 ;
+    -webkit-margin-before: 0 !important;
+    -webkit-margin-after: 0!important;
+    -webkit-margin-start: 0!important;
+    -webkit-margin-end: 0!important;
+    margin-bottom: 45px !important;
+    text-align: center;
+
+
+  }
+  
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 70vh;
+    margin: auto;
+
+    
+  }
+  
+  .item {
+    display: flex;
+    flex: 1;
+    height: 75%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1vh
+   
+  }
+  .item:hover{
+      flex:15
+  }
+  
+  .item-1 { 
+    background-image: url('https://images.unsplash.com/photo-1499198116522-4a6235013d63?auto=format&fit=crop&w=1233&q=80');
+  }
+  
+  .item-2 { 
+    background-image: url('https://images.unsplash.com/photo-1492760864391-753aaae87234?auto=format&fit=crop&w=1336&q=80');
+  }
+  
+  .item-3 { 
+    background-image: url('https://images.unsplash.com/photo-1503631285924-e1544dce8b28?auto=format&fit=crop&w=1234&q=80');
+  }
+  
+  .item-4 { 
+    background-image: url('https://images.unsplash.com/photo-1510425463958-dcced28da480?auto=format&fit=crop&w=1352&q=80');
+  }
+  
+  .item-5 { 
+    background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1234&q=80');
+  }
+  
+  .social{
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+  }
+    .social.img{
+      display: block;
+      width: 32px;
+    }
+  
+
+    .project-description{
+      align-items: flex-end;
+      margin-bottom: 15vh;
+      color: white 
+      
+    }

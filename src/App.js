@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Sliders from './components/Home'
 import Header from './components/Header'
 import Animation from './components/animation/animation'
 import Background from './components/background/background'
+import Accordeon from './components/accordeon/accordeon'
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Animation/>
       <Header/>
       <Sliders/>
+      <Accordeon/>
     </div>
   );
 }

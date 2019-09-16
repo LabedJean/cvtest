@@ -17,7 +17,7 @@ export default function App() {
   const onScroll = useCallback(e => set({ st: e.target.scrollTop / 30 }), [])
   return (
     <div class="container" onMouseMove={onMove} onScroll={onScroll}>
-      <div style={{ height: '200%', overflow: 'hidden' }}>
+      <div style={{ height: '236%', }}>
       <div className="header-container">
                 <div className="name-container">
                     <p className="name">Jean Labed</p>
